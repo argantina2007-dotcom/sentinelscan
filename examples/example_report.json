@@ -1,0 +1,18 @@
+{
+    "target": "127.0.0.1",
+    "scan_time": "2026-10-07T08:53:22",
+    "security_score": 90,
+    "overall_risk": "LOW",
+    "findings": [
+        {
+            "port": 8000,
+            "protocol": "tcp",
+            "service": "http",
+            "product": "SimpleHTTPServer",
+            "version": "0.6",
+            "risk": "MEDIUM",
+            "reason": "An HTTP service is exposed on an alternative web port.",
+            "recommendation": "Verify that the service is required and restrict access if necessary."
+        }
+    ]
+}
