@@ -83,7 +83,9 @@ Display help:
 ```bash
 python3 src/sentinelscan.py --help
 ```
+## Screenshot
 
+![SentinelScan Demo](screenshots/sentinelscan-demo.png)
 ## Example Output
 
 ```text
